@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class primo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int valor, cont = 1, resultado, total=0;
+        int valor, cont = 2, resultado, total=0;
         System.out.println("digite um valor");
         valor = sc.nextInt();
         if (valor <= 0) {
@@ -16,7 +16,7 @@ public class primo {
 
                 }
             }
-            if (total==2){
+            if (total==0){
                 System.out.println("o número é primo");
             }
             else{
